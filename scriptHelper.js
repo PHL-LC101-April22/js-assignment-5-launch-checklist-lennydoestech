@@ -48,7 +48,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
         validateInput(copilot) === "Empty" ||
         validateInput(fuelLevel) === "Empty" ||
         validateInput(cargoLevel) === "Empty") {
-            alert("Please input all fields");
+        alert("Please input all fields");
 
 
         list.style.visibility = "";
